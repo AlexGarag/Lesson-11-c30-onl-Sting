@@ -18,9 +18,13 @@ public class Handler {
         System.out.println("2.2 " + toStringFromStringBuilder22);
         String toStringFromStringBuilder23 = String.valueOf(stringBuilder.insert(5, 'y'));
         System.out.println("2.2 " + toStringFromStringBuilder23);
-        StringBuilder stringBuilder23 = new StringBuilder();
-        String toStringFromStringBuilder24 = String.valueOf(stringBuilder23.append(toStringFromStringBuilder23).delete(2,5));
+        StringBuilder stringBuilder24 = new StringBuilder();
+        String toStringFromStringBuilder24 = String.valueOf(stringBuilder24.append(toStringFromStringBuilder23).delete(2,5));
         System.out.println("2.4 " + toStringFromStringBuilder24);
+        StringBuilder stringBuilder25 = new StringBuilder();
+        stringBuilder25.append(toStringFromStringBuilder24);
+        String toStringFromStringBuilder25 = String.valueOf(stringBuilder25.reverse());
+        System.out.println("2.5 " + toStringFromStringBuilder25);
 
 
 
